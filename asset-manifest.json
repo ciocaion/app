@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/app/static/css/main.7a824641.chunk.css",
+    "main.js": "/app/static/js/main.f5da4824.chunk.js",
+    "main.js.map": "/app/static/js/main.f5da4824.chunk.js.map",
+    "runtime-main.js": "/app/static/js/runtime-main.5e78d145.js",
+    "runtime-main.js.map": "/app/static/js/runtime-main.5e78d145.js.map",
+    "static/js/2.336533ca.chunk.js": "/app/static/js/2.336533ca.chunk.js",
+    "static/js/2.336533ca.chunk.js.map": "/app/static/js/2.336533ca.chunk.js.map",
+    "index.html": "/app/index.html",
+    "static/css/main.7a824641.chunk.css.map": "/app/static/css/main.7a824641.chunk.css.map",
+    "static/js/2.336533ca.chunk.js.LICENSE.txt": "/app/static/js/2.336533ca.chunk.js.LICENSE.txt",
+    "static/media/avatar-grid.css": "/app/static/media/avatar9.836915ff.png",
+    "static/media/App.css": "/app/static/media/pplHome.868facec.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e78d145.js",
+    "static/js/2.336533ca.chunk.js",
+    "static/css/main.7a824641.chunk.css",
+    "static/js/main.f5da4824.chunk.js"
+  ]
+}
