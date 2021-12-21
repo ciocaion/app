@@ -1,0 +1,158 @@
+:root{
+  --yellow: #FBB248;
+  --green: #475C23;
+  --beige: #E3DCC9;
+  --grey: #ECECEC;
+}
+
+
+.avatar-grid {
+    height: 100%;
+    margin: 0;
+    display: grid;
+    width: 290px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px 15px;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas:
+      "avatar1 avatar2 avatar3"
+      "avatar4 avatar5 avatar6"
+      "avatar7 avatar8 avatar9"
+      "avatar10 avatar11 avatar12"
+      "avatar13 avatar14 avatar15";
+  }
+
+  
+  /* Selection styling */
+  
+  .avatar-grid * {
+    border-radius: 25px;
+    position: relative;
+    background-color: var(--grey); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+  }
+  
+  .avatar-grid *:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .avatar-grid *:active {
+    background-color: var(--yellow);
+  }
+
+  .avatar-grid * label,[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* IMAGE STYLES */
+  [type=radio] {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  [type=radio]+div {
+    cursor: pointer;
+    margin-right: 0.5rem;
+  }
+  
+  [type=radio]:checked + div {
+    outline: 4px solid var(--yellow);
+    background-color: var(--yellow);
+    opacity: 70%;
+  }
+
+  .profile-text-input{
+    width: 80vw;
+    height: 50px;
+    margin-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--grey);
+    text-align: center;
+    font-size: 16pt;
+}
+
+
+
+/* Single Avatars */
+
+.avatar1 { 
+  background-image: url(../img/avatars/avatar1.png); 
+  grid-area: avatar1;}
+
+.avatar2 {
+  background-image: url(../img/avatars/avatar2.png); 
+  grid-area: avatar2; }
+
+.avatar3 { 
+  background-image: url(../img/avatars/avatar3.png);
+  grid-area: avatar3; }
+
+.avatar4 { 
+  background-image: url(../img/avatars/avatar4.png);
+  grid-area: avatar4; }
+
+.avatar5 { 
+  background-image: url(../img/avatars/avatar5.png);
+  grid-area: avatar5; }
+
+.avatar6 { 
+  background-image: url(../img/avatars/avatar6.png);
+  grid-area: avatar6; }
+
+.avatar7 {  
+  background-image: url(../img/avatars/avatar7.png);
+  grid-area: avatar7; }
+
+.avatar8 { 
+  background-image: url(../img/avatars/avatar8.png);
+   grid-area: avatar8; }
+
+.avatar9 { 
+   
+  background-image: url(../img/avatars/avatar9.png);
+  grid-area: avatar9; }
+
+.avatar10 {  
+  background-image: url(../img/avatars/avatar10.png);
+  grid-area: avatar10; }
+
+.avatar11 {  
+  background-image: url(../img/avatars/avatar11.png);
+  grid-area: avatar11; }
+
+.avatar12 {  
+  background-image: url(../img/avatars/avatar12.png);
+  grid-area: avatar12; }
+
+.avatar13 {  
+  background-image: url(../img/avatars/avatar13.png);
+  grid-area: avatar13; }
+
+.avatar14 {  
+  background-image: url(../img/avatars/avatar14.png);
+  grid-area: avatar14; }
+
+.avatar15 {  
+  background-image: url(../img/avatars/avatar15.png);
+  grid-area: avatar15; }
+

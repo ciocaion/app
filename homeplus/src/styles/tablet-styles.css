@@ -1,0 +1,19 @@
+
+
+/*// Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) {
+
+  .login-container{
+    width: 500px;
+  }
+  .add-container{
+    width: 550px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+
+  }
+
